@@ -8,8 +8,8 @@ MatriculatinDate DATE
 
 CREATE TABLE SaveYourCar_Cars_Data (       
 id INT PRIMARY KEY,
-DATA VARCHAR NOT NULL,
-TYPE VARCHAR NOT NULL
+CarData VARCHAR NOT NULL,
+CarType VARCHAR NOT NULL
 );
 
 
