@@ -1,20 +1,20 @@
 CREATE TABLE SaveYourCar_Cars_Anagraphic (  
-id INT PRIMARY KEY,
-CarName VARCHAR(255) NOT NULL,
-Fuel VARCHAR(255) NOT NULL,
-MatriculatinDate DATE
-);
+  id INT PRIMARY KEY,
+  CarName VARCHAR(255) NOT NULL,
+  Fuel VARCHAR(255) NOT NULL,
+  MatriculatinDate DATE
+  );
 
 
 CREATE TABLE SaveYourCar_Cars_Data (       
-id INT PRIMARY KEY,
-CarData VARCHAR NOT NULL,
-CarType VARCHAR NOT NULL
-);
+  id INT PRIMARY KEY,
+  CarData VARCHAR NOT NULL,
+  CarType VARCHAR NOT NULL
+  );
 
 
 CREATE TABLE SaveYourCar_Cars_RelationDataCar(   
-    id INT PRIMARY KEY,
+  id INT PRIMARY KEY,
   CarId INT NOT NULL,
   ValueInt INT,                                                --  One field between ValueInt and ValueDate has to be  NULL
   ValueDate DATE,
