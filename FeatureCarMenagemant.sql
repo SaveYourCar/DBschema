@@ -13,23 +13,18 @@ CarType VARCHAR NOT NULL
 );
 
 
-
 CREATE TABLE SaveYourCar_Cars_RelationDataCar(   
-  
-  id INT PRIMARY KEY,
+    id INT PRIMARY KEY,
   CarId INT NOT NULL,
   ValueInt INT,                                                --  One field between ValueInt and ValueDate has to be  NULL
   ValueDate DATE,
   DetectionDate DATE,
   DetectorName VARCHAR(255)
-  
   );
 
 
 CREATE TABLE SaveYourCar_Cars_RelationCarsUsers(   
-
   id INT PRIMARY KEY,
   UserID  INT,
   CarId INT
-
   );
