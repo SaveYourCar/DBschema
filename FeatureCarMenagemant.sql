@@ -9,7 +9,7 @@ CREATE TABLE SaveYourCar_Cars_Anagraphic (
 CREATE TABLE SaveYourCar_Cars_Data (       
   id INT PRIMARY KEY,
   CarData VARCHAR NOT NULL,
-  CarType VARCHAR NOT NULL
+  DataType VARCHAR NOT NULL
   );
 
 
@@ -25,6 +25,6 @@ CREATE TABLE SaveYourCar_Cars_RelationDataCar(
 
 CREATE TABLE SaveYourCar_Cars_RelationCarsUsers(   
   id INT PRIMARY KEY,
-  UserID  INT,
+  UserId  INT,
   CarId INT
   );
